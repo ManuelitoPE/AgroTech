@@ -1,0 +1,26 @@
+{
+  "name": "moray_arotech",
+  "version": "1.0.0",
+  "description": "Agriculture Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelitoPE/AgroTech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelitoPE/AgroTech/issues"
+  },
+  "homepage": "https://github.com/ManuelitoPE/AgroTech#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.75.0"
+  }
+}
