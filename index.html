@@ -6,7 +6,13 @@
     <title>AGROTECH</title>
     <meta name="description" content="Agriculture Services">
     <meta name="description" content="Servicios de agricultura">
-    
+    <!-- Style -->
+    <link rel="preload" href="build/css/app.css" as="style" />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="portada">
@@ -14,12 +20,17 @@
         <header>
             <div class="portada__navegacion">
                 <!-- Logo -->
-                <a href=""><img src="" alt=""></a>
+                <a href="index.html">
+                  <img
+                    class="portada__navegacion__logo"
+                    src="build/img/logo.svg"
+                    alt="LogoTipo"
+                    loading="lazy"
+                  />
+                </a>
                 <nav>
-                    <a href="#">Incio</a>
                     <a href="#">Nosotros</a>
                     <a href="#">Servicios</a>
-                    <a href="#">Proveedores</a>
                     <a href="#">Contacto</a>
                 </nav>
             </div>
@@ -30,6 +41,109 @@
             <a href="#">Contactanos</a>
         </div>
     </div>
-
+    <!-- FIN HEADER -->
+    <!-- MAIN -->
+    <main class="contenedor">
+        <section>
+            <h2>Nosotros</h2>
+            <p>Somos una empresa peruana comprometida con brindar 
+                servicios de calidad entregando eficiencia y rapidez 
+                a nuestros clientes nacionales e internacionales. 
+                Además, ofrecemos una variada línea de distribución 
+                de fertilizantes, bioestimulantes y plaguicidas 
+                químicos y biológicos que permiten enfrentar de 
+                manera satisfactoria los diversos desafíos de una 
+                agricultura cada vez más competitiva y comprometida
+                 con el cuidado del medio ambiente.</p>
+        </section>
+        <section class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="grid">
+                <div class="servicio__element">
+                    <a href="#">
+                        <picture>
+                          <source
+                            class="servicio__element__imagen"
+                            srcset="build/img/fresas.avif"
+                            type="image/avif"
+                            loading="lazy"
+                          />
+                          <img
+                            class="servicio__element__imagen"
+                            src="build/img/fresas.JPG"
+                            alt="salineras_2"
+                          />
+                        </picture>
+                        <div class="servicio__element__informacion">
+                            <h3>Ensayos de eficacia de plaguicidas de uso agrícola</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit. Dolorem architecto distinctio dolor,
+                            possimus nisi sapiente sequi similique expedita!
+                            Repudiandae nulla inventore aperiam quasi nam nemo
+                            voluptatem facere dolores excepturi error?</p>
+                        </div>
+                      </a>
+                </div>
+                <div class="servicio__element">
+                    <div class="servicio__element">
+                        <a href="#">
+                            <picture>
+                              <source
+                                class="servicio__element__imagen"
+                                srcset="build/img/fresas.avif"
+                                type="image/avif"
+                                loading="lazy"
+                              />
+                              <img
+                                class="servicio__element__imagen"
+                                src="build/img/fresas.JPG"
+                                alt="salineras_2"
+                              />
+                            </picture>
+                            <div class="servicio__element__informacion">
+                                <h3>Ensayos de eficacia de plaguicidas de uso agrícola</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur 
+                                adipisicing elit. Dolorem architecto distinctio dolor,
+                                possimus nisi sapiente sequi similique expedita!
+                                Repudiandae nulla inventore aperiam quasi nam nemo
+                                voluptatem facere dolores excepturi error?</p>
+                            </div>
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FIN MAIN -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="contenedorFormulario">
+            <h2>Contactanos</h2>
+            <form action="" class="formulario">
+                <input
+                  class="formulario__elements"
+                  type="text"
+                  placeholder="First Name"
+                />
+                <input
+                  class="formulario__elements"
+                  type="text"
+                  placeholder="Last Name"
+                />
+                <input
+                  class="formulario__elements"
+                  type="email"
+                  placeholder="Email Address"
+                />
+                <textarea
+                  class="formulario__elements"
+                  placeholder="Message"
+                ></textarea>
+                <input class="formulario__elements" type="submit" value="Submit" />
+              </form>
+        </div>
+        <p class="footer__texto">Todos los derechos reservados</p>
+    </footer>
+    <!-- FIN FOOTER -->
 </body>
 </html>
