@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+// Servicios
+.titulo__servicios{
+    margin-top: 7rem;
+}
+.servicios{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(45rem,1fr)); 
+                            //Minimo cada iamgen puede tomar 35rem
+    gap: 5rem;
+    place-content: center;
+}
+.servicio__element{
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #763c12
+}
+.servicio__element__informacion{
+    p{
+        color: v.$Licorice;
+    }
+}
