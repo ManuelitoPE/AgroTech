@@ -44,17 +44,32 @@
     <!-- FIN HEADER -->
     <!-- MAIN -->
     <main class="contenedor">
-        <section>
-            <h2>Nosotros</h2>
-            <p>Somos una empresa peruana comprometida con brindar 
-                servicios de calidad entregando eficiencia y rapidez 
-                a nuestros clientes nacionales e internacionales. 
-                Además, ofrecemos una variada línea de distribución 
-                de fertilizantes, bioestimulantes y plaguicidas 
-                químicos y biológicos que permiten enfrentar de 
-                manera satisfactoria los diversos desafíos de una 
-                agricultura cada vez más competitiva y comprometida
-                 con el cuidado del medio ambiente.</p>
+        <section class="nosotros">
+            <h2 class="nosotros__titulo">Nosotros</h2>
+            <div class="nosotros__contenido">
+              <p class="nosotros__contenido__parrafo">Somos una empresa peruana comprometida con brindar 
+                  servicios de calidad entregando eficiencia y rapidez 
+                  a nuestros clientes nacionales e internacionales. 
+                  Además, ofrecemos una variada línea de distribución 
+                  de fertilizantes, bioestimulantes y plaguicidas 
+                  químicos y biológicos que permiten enfrentar de 
+                  manera satisfactoria los diversos desafíos de una 
+                  agricultura cada vez más competitiva y comprometida
+                   con el cuidado del medio ambiente.</p>
+              <picture>
+                <source
+                  class="nosotros__contenido__imagen"
+                  srcset="build/img/nosotros.avif"
+                  type="image/avif"
+                  loading="lazy"
+                />
+                <img
+                  class="nosotros__contenido__imagen"
+                  src="build/img/nosotros.jpg"
+                  alt="salineras_2"
+                />
+              </picture>
+            </div>
         </section>
         <section class="servicios">
             <h2>Nuestros Servicios</h2>

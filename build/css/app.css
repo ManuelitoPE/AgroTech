@@ -335,7 +335,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 4rem;
 }
 
 h3 {
@@ -449,4 +449,31 @@ img {
 
 .portada__hero__boton:hover {
   background-color: #F7934C;
+}
+
+.nosotros {
+  margin-top: 7rem;
+}
+
+.nosotros__contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+@media (min-width: 935px) {
+  .nosotros__contenido {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.nosotros__contenido__parrafo {
+  margin: 0;
+  text-align: center;
+  color: #716c54;
+}
+
+.nosotros__contenido__imagen {
+  border-radius: 1rem;
 }
