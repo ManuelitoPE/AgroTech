@@ -366,6 +366,13 @@ img {
   margin: 0 auto;
 }
 
+/* Footer */
+.footer {
+  margin-top: 7rem;
+  padding: 0 5rem;
+  background-color: #c08537;
+}
+
 .portada {
   height: 100vh;
   position: relative;
