@@ -12,11 +12,11 @@ body{
     font-family: v.$fuente;
     font-size: 1.6rem;
     line-height: 1.5;
-    background-color: v.$cambridge;
+    background-color: v.$Licorice;
 }
 h1,h2,h3{
     text-align: center;
-    color: v.$teaGreen;
+    color: v.$Xanthous;
     font-family: v.$fuente;
 }
 h1{
@@ -36,6 +36,7 @@ p{
 a{
     text-decoration: none;
     display: inline-block;
+    font-family: v.$fuente;
 }
 
 img{
