@@ -126,37 +126,41 @@
     <!-- FIN MAIN -->
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="contenedorFormulario">
+      <div class="contenedorFormulario">
+        <div class="footer__titulo">
+          <div class="footer__titulo-sombra">
             <h2>Contactanos</h2>
-            <form name="Contacto" action="" class="formulario" method="POST" data-netlify="true">
-                <input
-                  class="formulario__elements"
-                  type="text"
-                  name="firstName"
-                  placeholder="First Name"
-                />
-                <input
-                  class="formulario__elements"
-                  type="text"
-                  name="lastName"
-                  placeholder="Last Name"
-                />
-                <input
-                  class="formulario__elements"
-                  type="email"
-                  name="email"
-                  placeholder="Email Address"
-                />
-                <textarea
-                  class="formulario__elements"
-                  name="message"
-                  placeholder="Message"
-                ></textarea>
-                <div data-netlify-recaptcha="true"></div>
-                <input class="formulario__elements" type="submit" value="Submit" />
-              </form>
+          </div>
         </div>
-        <p class="footer__texto">Todos los derechos reservados</p>
+         <form name="Contacto" action="" class="footer__formulario" method="POST" data-netlify="true">
+          <input
+            class="footer__formulario__elements"
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+          />
+          <input
+            class="footer__formulario__elements"
+            type="text"
+            name="lastName"
+            placeholder="Last Name"
+          />
+          <input
+            class="footer__formulario__elements"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <textarea
+            class="footer__formulario__elements"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+          <div  data-netlify-recaptcha="true"></div>
+          <input class="footer__formulario__elements" type="submit" value="Submit" />
+          </form>
+      </div>
+      <p class="footer__texto">Todos los derechos reservados</p>
     </footer>
     <!-- FIN FOOTER -->
 </body>
